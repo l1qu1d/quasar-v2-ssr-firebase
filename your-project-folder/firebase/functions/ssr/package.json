@@ -1,0 +1,41 @@
+{
+  "name": "quasar",
+  "version": "0.0.1",
+  "description": "A Quasar Framework app",
+  "author": "l1qu1d",
+  "private": true,
+  "scripts": {
+    "start": "node index.js"
+  },
+  "dependencies": {
+    "core-js": "3.15.2",
+    "quasar": "2.0.3",
+    "compression": "^1.0.0",
+    "express": "^4.0.0",
+    "vue": "3.1.5",
+    "@vue/server-renderer": "3.1.5",
+    "@vue/compiler-sfc": "3.1.5",
+    "@quasar/ssr-helpers": "2.1.1",
+    "vue-router": "4.0.10",
+    "@quasar/babel-preset-app": "2.0.1"
+  },
+  "engines": {
+    "node": ">= 12.22.1",
+    "npm": ">= 6.13.4",
+    "yarn": ">= 1.21.1"
+  },
+  "browserslist": [
+    "last 10 Chrome versions",
+    "last 10 Firefox versions",
+    "last 4 Edge versions",
+    "last 7 Safari versions",
+    "last 8 Android versions",
+    "last 8 ChromeAndroid versions",
+    "last 8 FirefoxAndroid versions",
+    "last 10 iOS versions",
+    "last 5 Opera versions"
+  ],
+  "quasar": {
+    "ssr": true
+  }
+}

@@ -1,9 +1,6 @@
 import * as functions from "firebase-functions";
 
-// // Start writing Firebase Functions
-// // https://firebase.google.com/docs/functions/typescript
-//
-// export const helloWorld = functions.https.onRequest((request, response) => {
-//   functions.logger.info("Hello logs!", {structuredData: true});
-//   response.send("Hello from Firebase!");
-// });
+// eslint-disable-next-line @typescript-eslint/no-var-requires
+const ssrApp = require("../ssr/index.js");
+
+exports.ssr = functions.https.onRequest(ssrApp.handler);
