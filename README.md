@@ -1,6 +1,6 @@
 # Welcome
 
-This repo is to help you get setup to host your Quasar V2 SSR ExpressJS project on Google's Firebase! You can branch, download, or follow the steps below to get instantly setup. The files in this repo are the **exact steps shown below.**
+This repo is to help you get setup to host your Quasar V2 SSR ExpressJS project on Google's Firebase! You can fork, download, or follow the steps below to get instantly setup. The files in this repo are the **exact steps shown below.**
 
 # *Warning*
 You **WILL HAVE TO EDIT `.firebaserc` TO YOUR FIREBASE PROJECT NAME!**
