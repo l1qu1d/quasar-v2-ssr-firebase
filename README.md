@@ -175,7 +175,7 @@ Example:
 },
 
 ## Install the added dependencies
-1. `cd your-project-folder/firebase/fucntions`
+1. `cd your-project-folder/firebase/functions`
 2. `npm i` or run install on whatever package manager you have.
 
 # Code
