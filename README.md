@@ -1,0 +1,1 @@
+# quasar-v2-ssr-firebase
