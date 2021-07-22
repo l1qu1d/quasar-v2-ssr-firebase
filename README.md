@@ -3,7 +3,7 @@
 This repo is to help you get setup to host your Quasar V2 SSR ExpressJS project on Google's Firebase! You can fork, download, or follow the steps below to get instantly setup. The files in this repo are the **exact steps shown below.**
 
 # *Warning*
-You **WILL HAVE TO EDIT `.firebaserc` TO YOUR FIREBASE PROJECT NAME!**
+**You WILL HAVE TO EDIT `.firebaserc` TO YOUR FIREBASE PROJECT NAME!**
 * [.firebaserc](your-project-folder/firebase/.firebaserc)
 
 # TLDR;
@@ -13,7 +13,7 @@ You will have to edit the compressed code that is generated from `quasar build -
 
 ## TLDR; Steps
 1. Remove `module.exports = n` from [ssr/index.js](your-project-folder/firebase/functions/ssr/index.js) because it blocks us from exporting our handler function!
-1. Then we can add our handler function in the `IIFE (Immediately invoked function expression) where they had to "use strict"`. `exports.handler = m`.
+1. Then we can add our handler function, `exports.handler = m`, in the **IIFE (Immediately invoked function expression) where they had to "use strict"**.
 2. **NOTE: Your variable names my be different because of the compression. For example, your `exports.handler = m` might be something like `exports.handler = h` instead.**
 3. The end of your `index.js` file should look something like this:
 * [index.js](your-project-folder/firebase/functions/ssr/index.js)
