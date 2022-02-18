@@ -1,3 +1,11 @@
+# DEPRECATED & ARCHIVED
+Newer versions of Quasar should have this problem resolved. See: https://github.com/quasarframework/quasar/discussions/9411#discussioncomment-1766090. 
+Since the release of this repo, I've moved on to a different framework and haven't tested any newer versions from the inital repo release. 
+
+If the issue is still valid, please raise an Issue on the official Quasar repo. 
+
+If for some reason you're still using this version of Quasar, be aware that this repo may have packages that have security issues. Be sure to run ```npm audit``` for more information.
+
 # Welcome
 
 This repo is to help you get setup to host your Quasar V2 SSR ExpressJS project on Google's Firebase! You can fork, download, or follow the steps below to get instantly setup. The files in this repo are the **exact steps shown below.**
